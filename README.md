@@ -1,6 +1,6 @@
 # 0x00. Shell, basics
 
-This is a repo for the `0x00. Shell, basics` project
+This is a repo for the `0x00. Shell, basics` project.
 
 ## Learning Objectives 
 
