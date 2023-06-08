@@ -1,4 +1,3 @@
-# 0x00. Shell, basics
-
-This is a repo for ALX bash projects.
+## ALX System Engineering and DevOps
+This is a repo for my  ALX System Engineering and DevOps.
 
