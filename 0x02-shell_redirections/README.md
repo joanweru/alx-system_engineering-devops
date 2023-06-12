@@ -13,6 +13,15 @@ When the notation`>> filename` is added to the end of a command, the new results
 
 When the notation `< filename` is added to the end of a command, the input of the command is read from the specified file name. The **<** symbol is known as the *input redirection operator*
 
+## Pipelines
+Pipelines connect multiple commands together. With pipelines, each command reads the previous command’s output.
+
+`command1 | command2 | command`
+
+## Filters
+
+Filters are programs that take plain text(either stored in a file or produced by another program) as standard input, transforms it into a meaningful format, and then returns it as standard output.
+
 ### Tasks
 
 This repo contains tasks for my 0x02. Shell, I/O Redirections and filters Project. The following are scripts in this repo and their uses.
