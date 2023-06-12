@@ -7,13 +7,13 @@ In typical Unix installations, commands are entered at the keyboard. By default,
 The output from a command, which normally goes to the display device can be redirected to a file by typing the command followed by `> filename`. The output of the command is written to the specified file name. The **>** symbol is known as the *output redirection operator*.
 
 
-When the notation`>> filename` is added to the end of a command, the new results of the output of the command are added to the end of the file rather than overwriting the pre-existing data, thus making the file longer each time the command is repeated.The **>>** symbol is known as the *append redirection operator*.
+When the notation`>> filename` is added to the end of a command, the new results of the output of the command are added to the end of the file rather than overwriting the pre-existing data, thus making the file longer each time the command is repeated. The **>>** symbol is known as the *append redirection operator*.
 
 ## Input Redirection
 
 When the notation `< filename` is added to the end of a command, the input of the command is read from the specified file name. The **<** symbol is known as the *input redirection operator*
 
-> Tasks
+### Tasks
 
 This repo contains tasks for my 0x02. Shell, I/O Redirections and filters Project. The following are scripts in this repo and their uses.
 
@@ -52,4 +52,30 @@ Requirements:
 * `20-hiago` - creates a script that removes all letters c and C from input
 * `21-reverse` - a script that reverse its input
 * `22-users_and_homes` - displays all users and their home directories, sorted by users
- 
+* `100-empty_casks` - finds all empty files and directories in the current directory and all sub-directories
+
+    * Only the names of the files and directories should be displayed (not the entire path)
+    * Hidden files should be listed
+    * One file name per line
+    * The listing should end with a new line
+    * You are not allowed to use `basename`, `grep`, `egrep`, `fgrep` or `rgrep`
+
+* `101-gifs` -  lists all the files with a `.gif` extension in the current directory and all its sub-directories
+
+    * Hidden files should be listed	
+    * Only regular files (not directories) should be listed
+    * The names of the files should be displayed without their extensions
+    * The files should be sorted by byte values, but case-insensitive (file `aaa` should be listed before file `bbb`, file `.b` should be listed before file `a`, and file `Ron` should be listed after file `jay`)
+    * One file name per line
+    * The listing should end with a new line
+    * You are not allowed to use `basename`, `grep`, `egrep`, `fgrep` or `rgrep` 
+
+* `102-acrostic` - decodes acrostics that use the first letter of each line
+
+    * The ‘decoded’ message has to end with a new line
+    * You are not allowed to use`grep`, `egrep`, `fgrep` or `rgrep`
+
+* `103-the_biggest_fan` - arses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests.
+
+    * Order by number of requests, most active host or IP at the top
+    * You are not allowed to use `grep`, `egrep`, `fgrep` or `rgrep`
