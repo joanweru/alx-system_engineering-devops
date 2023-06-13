@@ -1,6 +1,6 @@
 # 0x03. Shell, init files, variables and expansions
 
-This repo contains tasks for my 0x02. Shell, I/O Redirections and filters Project. The following are topics covered in this project:
+This directory contains tasks for my 0x02. Shell, I/O Redirections and filters Project. The following are topics covered in this project:
 
 * Expansions
 * Shell Arithmetic
