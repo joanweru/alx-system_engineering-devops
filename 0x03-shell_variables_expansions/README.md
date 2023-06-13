@@ -8,7 +8,6 @@ This directory contains tasks for my 0x02. Shell, I/O Redirections and filters P
 * Shell initialization files
 * The alias Command
 * Technical Writing
-* man or help
 
 ## Tasks
 
